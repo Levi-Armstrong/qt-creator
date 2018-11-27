@@ -322,7 +322,7 @@ def main():
                'wayland-graphics-integration-client',
                'wayland-shell-integration',
                ]
-    imports = ['Qt', 'QtWebKit']
+    imports = ['Qt', 'QtWebEngine']
 
     if common.is_windows_platform():
         global debug_build
